@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		930CF1B41F69B3C8005D0C1A /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930CF1B31F69B3C8005D0C1A /* UIImage+Resize.swift */; };
+		930CF1B61F6A9C78005D0C1A /* String+AddText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930CF1B51F6A9C78005D0C1A /* String+AddText.swift */; };
+		930CF1B81F6AA425005D0C1A /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930CF1B71F6AA425005D0C1A /* MyTabBarController.swift */; };
+		930CF1BA1F6AA584005D0C1A /* MyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930CF1B91F6AA584005D0C1A /* MyNavigationController.swift */; };
+		930CF1BC1F6AA5EF005D0C1A /* MyImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930CF1BB1F6AA5EF005D0C1A /* MyImagePickerController.swift */; };
+		931EB9B31F65602200EFB792 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931EB9B21F65602200EFB792 /* AppDelegate.swift */; };
+		931EB9B51F65602200EFB792 /* CurrentLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931EB9B41F65602200EFB792 /* CurrentLocationViewController.swift */; };
+		931EB9BA1F65602200EFB792 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 931EB9B81F65602200EFB792 /* Main.storyboard */; };
+		931EB9BC1F65602200EFB792 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 931EB9BB1F65602200EFB792 /* Assets.xcassets */; };
+		931EB9C71F65C2D200EFB792 /* LocationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931EB9C61F65C2D200EFB792 /* LocationDetailsViewController.swift */; };
+		931EB9C91F65CD4500EFB792 /* CategoryPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931EB9C81F65CD4500EFB792 /* CategoryPickerViewController.swift */; };
+		9334D1491F694825008DBCB8 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9334D1481F694825008DBCB8 /* MapViewController.swift */; };
+		93F2A3D81F668DB300A1243F /* HudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F2A3D71F668DB300A1243F /* HudView.swift */; };
+		93F2A3DA1F66AD3A00A1243F /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F2A3D91F66AD3A00A1243F /* Functions.swift */; };
+		93F2A3DD1F66B25700A1243F /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93F2A3DB1F66B25700A1243F /* DataModel.xcdatamodeld */; };
+		93F2A3E01F66B66F00A1243F /* Location+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F2A3DE1F66B66F00A1243F /* Location+CoreDataClass.swift */; };
+		93F2A3E11F66B66F00A1243F /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F2A3DF1F66B66F00A1243F /* Location+CoreDataProperties.swift */; };
+		93F2A3E31F66CFB800A1243F /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F2A3E21F66CFB800A1243F /* LocationsViewController.swift */; };
+		93F2A3E51F6708DE00A1243F /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F2A3E41F6708DE00A1243F /* LocationCell.swift */; };
+		93F2A3E81F67221100A1243F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F2A3E71F67221100A1243F /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		930CF1B31F69B3C8005D0C1A /* UIImage+Resize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Resize.swift"; sourceTree = "<group>"; };
+		930CF1B51F6A9C78005D0C1A /* String+AddText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+AddText.swift"; sourceTree = "<group>"; };
+		930CF1B71F6AA425005D0C1A /* MyTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
+		930CF1B91F6AA584005D0C1A /* MyNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNavigationController.swift; sourceTree = "<group>"; };
+		930CF1BB1F6AA5EF005D0C1A /* MyImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyImagePickerController.swift; sourceTree = "<group>"; };
+		931EB9AF1F65602200EFB792 /* MyLocations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLocations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		931EB9B21F65602200EFB792 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		931EB9B41F65602200EFB792 /* CurrentLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = CurrentLocationViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		931EB9B91F65602200EFB792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		931EB9BB1F65602200EFB792 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		931EB9C01F65602200EFB792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		931EB9C61F65C2D200EFB792 /* LocationDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = LocationDetailsViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		931EB9C81F65CD4500EFB792 /* CategoryPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryPickerViewController.swift; sourceTree = "<group>"; };
+		9334D1481F694825008DBCB8 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		93F2A3D71F668DB300A1243F /* HudView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HudView.swift; sourceTree = "<group>"; };
+		93F2A3D91F66AD3A00A1243F /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		93F2A3DC1F66B25700A1243F /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		93F2A3DE1F66B66F00A1243F /* Location+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataClass.swift"; sourceTree = "<group>"; };
+		93F2A3DF1F66B66F00A1243F /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		93F2A3E21F66CFB800A1243F /* LocationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = LocationsViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		93F2A3E41F6708DE00A1243F /* LocationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
+		93F2A3E71F67221100A1243F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		931EB9AC1F65602200EFB792 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F2A3E81F67221100A1243F /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		931EB9A61F65602200EFB792 = {
+			isa = PBXGroup;
+			children = (
+				931EB9B11F65602200EFB792 /* MyLocations */,
+				931EB9B01F65602200EFB792 /* Products */,
+				93F2A3E61F67221100A1243F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		931EB9B01F65602200EFB792 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				931EB9AF1F65602200EFB792 /* MyLocations.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		931EB9B11F65602200EFB792 /* MyLocations */ = {
+			isa = PBXGroup;
+			children = (
+				93F2A3DE1F66B66F00A1243F /* Location+CoreDataClass.swift */,
+				93F2A3DF1F66B66F00A1243F /* Location+CoreDataProperties.swift */,
+				931EB9B21F65602200EFB792 /* AppDelegate.swift */,
+				931EB9B41F65602200EFB792 /* CurrentLocationViewController.swift */,
+				931EB9C61F65C2D200EFB792 /* LocationDetailsViewController.swift */,
+				931EB9C81F65CD4500EFB792 /* CategoryPickerViewController.swift */,
+				93F2A3D71F668DB300A1243F /* HudView.swift */,
+				93F2A3D91F66AD3A00A1243F /* Functions.swift */,
+				93F2A3E21F66CFB800A1243F /* LocationsViewController.swift */,
+				93F2A3E41F6708DE00A1243F /* LocationCell.swift */,
+				9334D1481F694825008DBCB8 /* MapViewController.swift */,
+				930CF1B31F69B3C8005D0C1A /* UIImage+Resize.swift */,
+				930CF1B51F6A9C78005D0C1A /* String+AddText.swift */,
+				930CF1B71F6AA425005D0C1A /* MyTabBarController.swift */,
+				930CF1B91F6AA584005D0C1A /* MyNavigationController.swift */,
+				930CF1BB1F6AA5EF005D0C1A /* MyImagePickerController.swift */,
+				931EB9B81F65602200EFB792 /* Main.storyboard */,
+				931EB9BB1F65602200EFB792 /* Assets.xcassets */,
+				93F2A3DB1F66B25700A1243F /* DataModel.xcdatamodeld */,
+				931EB9C01F65602200EFB792 /* Info.plist */,
+			);
+			path = MyLocations;
+			sourceTree = "<group>";
+		};
+		93F2A3E61F67221100A1243F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93F2A3E71F67221100A1243F /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		931EB9AE1F65602200EFB792 /* MyLocations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 931EB9C31F65602200EFB792 /* Build configuration list for PBXNativeTarget "MyLocations" */;
+			buildPhases = (
+				931EB9AB1F65602200EFB792 /* Sources */,
+				931EB9AC1F65602200EFB792 /* Frameworks */,
+				931EB9AD1F65602200EFB792 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyLocations;
+			productName = MyLocations;
+			productReference = 931EB9AF1F65602200EFB792 /* MyLocations.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		931EB9A71F65602200EFB792 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Panagiotis Siapkaras";
+				TargetAttributes = {
+					931EB9AE1F65602200EFB792 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = UJ6PLG58NE;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 931EB9AA1F65602200EFB792 /* Build configuration list for PBXProject "MyLocations" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 931EB9A61F65602200EFB792;
+			productRefGroup = 931EB9B01F65602200EFB792 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				931EB9AE1F65602200EFB792 /* MyLocations */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		931EB9AD1F65602200EFB792 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931EB9BC1F65602200EFB792 /* Assets.xcassets in Resources */,
+				931EB9BA1F65602200EFB792 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		931EB9AB1F65602200EFB792 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F2A3DD1F66B25700A1243F /* DataModel.xcdatamodeld in Sources */,
+				930CF1BA1F6AA584005D0C1A /* MyNavigationController.swift in Sources */,
+				931EB9B31F65602200EFB792 /* AppDelegate.swift in Sources */,
+				930CF1BC1F6AA5EF005D0C1A /* MyImagePickerController.swift in Sources */,
+				93F2A3D81F668DB300A1243F /* HudView.swift in Sources */,
+				93F2A3E31F66CFB800A1243F /* LocationsViewController.swift in Sources */,
+				93F2A3E11F66B66F00A1243F /* Location+CoreDataProperties.swift in Sources */,
+				9334D1491F694825008DBCB8 /* MapViewController.swift in Sources */,
+				930CF1B41F69B3C8005D0C1A /* UIImage+Resize.swift in Sources */,
+				93F2A3E51F6708DE00A1243F /* LocationCell.swift in Sources */,
+				93F2A3DA1F66AD3A00A1243F /* Functions.swift in Sources */,
+				931EB9B51F65602200EFB792 /* CurrentLocationViewController.swift in Sources */,
+				93F2A3E01F66B66F00A1243F /* Location+CoreDataClass.swift in Sources */,
+				930CF1B61F6A9C78005D0C1A /* String+AddText.swift in Sources */,
+				931EB9C91F65CD4500EFB792 /* CategoryPickerViewController.swift in Sources */,
+				931EB9C71F65C2D200EFB792 /* LocationDetailsViewController.swift in Sources */,
+				930CF1B81F6AA425005D0C1A /* MyTabBarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		931EB9B81F65602200EFB792 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				931EB9B91F65602200EFB792 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		931EB9C11F65602200EFB792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		931EB9C21F65602200EFB792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		931EB9C41F65602200EFB792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = UJ6PLG58NE;
+				INFOPLIST_FILE = MyLocations/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Panos.MyLocations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		931EB9C51F65602200EFB792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = UJ6PLG58NE;
+				INFOPLIST_FILE = MyLocations/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Panos.MyLocations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		931EB9AA1F65602200EFB792 /* Build configuration list for PBXProject "MyLocations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				931EB9C11F65602200EFB792 /* Debug */,
+				931EB9C21F65602200EFB792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		931EB9C31F65602200EFB792 /* Build configuration list for PBXNativeTarget "MyLocations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				931EB9C41F65602200EFB792 /* Debug */,
+				931EB9C51F65602200EFB792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		93F2A3DB1F66B25700A1243F /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				93F2A3DC1F66B25700A1243F /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 93F2A3DC1F66B25700A1243F /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 931EB9A71F65602200EFB792 /* Project object */;
+}
